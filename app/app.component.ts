@@ -6,22 +6,20 @@ import { Component } from '@angular/core';
   styleUrls: [ './app.component.css' ]
 })
 export class AppComponent  {
-  name = 'Angular 5';
-  objectKeys = Object.keys;
+  name = 'a game';
   data = [
     {
-      "name": "Mike",
+      "name": "Player",
       "colors": [
-        {"name": "blue"},
-        {"name": "white"}
+        {"name": "https://deckofcardsapi.com/static/img/KH.png"},
+        {"name": "https://deckofcardsapi.com/static/img/JC.png"}
       ]
     },
 
     {
-      "name": "Phoebe",
+      "name": "Delar",
       "colors": [
-        {"name": "red"},
-        {"name": "yellow"}
+        {"name": "https://deckofcardsapi.com/static/img/9C.png"},
       ]
     }
   ]
