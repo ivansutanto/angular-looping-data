@@ -1,0 +1,11 @@
+<hello name="{{ name }}"></hello>
+<p>
+  Start editing to see some magic happen :)
+</p>
+
+<div *ngFor="let person of data">
+   <p>{{person.name}}</p> <!-- this works fine-->
+   <p *ngFor="let color of person.colors"> <!--I want to list the colors of the person here-->
+     {{color.name}}
+   </p>
+</div>
